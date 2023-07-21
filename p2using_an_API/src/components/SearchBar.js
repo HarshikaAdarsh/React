@@ -1,7 +1,11 @@
+import {useState} from 'reatc';
+
 function SearchBar({onSubmit}){
+    const [term, setTerm]=useState('');
+
     const handleFormSubmit = (event) => {
        event.preventDefault(); 
-       onSubmit('cars')
+       onSubmit('hjkxasj') ; 
     };
    
     return (
