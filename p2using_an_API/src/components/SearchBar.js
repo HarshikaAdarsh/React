@@ -7,12 +7,17 @@ function SearchBar({onSubmit}){
        event.preventDefault(); 
        onSubmit('hjkxasj') ; 
     };
+
+    const handleChange = (event) => {
+        console,log(event.target.value)
+    };
    
     return (
     <div>
         <form onSubmit={handleFormSubmit}>
-             <input/>
-        </form>
+            <input onChange={handleChange}/>
+             </form>
+       
     </div>
     );
       
