@@ -1,15 +1,15 @@
 import {useState} from 'reatc';
 
 function SearchBar({onSubmit}){
-    const [term, setTerm]=useState('');
+    const [term, setTerm] = useState('');
 
     const handleFormSubmit = (event) => {
        event.preventDefault(); 
-       onSubmit('hjkxasj') ; 
+       onSubmit(term) ; 
     };
 
     const handleChange = (event) => {
-        setTerm(event.target.value.replace(/[a-z]/,'') );
+        setTerm(event.target.value );
     };
    
     return (
