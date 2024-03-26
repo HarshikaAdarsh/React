@@ -1,4 +1,4 @@
-//to create an elemet and show up on screen is 5 step process
+//#####to create an elemet and show up on screen is 5 step process
 
 //1) Import the React and ReactDOM libraries
    //1.1) React : this library defines what a component is and how multiple compenents work together
@@ -32,7 +32,11 @@ function App(){
 // step 5
 root.render(<App/>);
 
-// Rule Converting HTML to JSX 
+
+/************************************************************************ */
+
+
+// ###Rule Converting HTML to JSX 
 //1) All prop names follow camelCase
 //2) Number Attribute use curly braces
 //3) Boolean 'true' can be written with just the property name. 'false' should be written with curly braces
@@ -40,17 +44,23 @@ root.render(<App/>);
 //5) In-line style are provided as objects
 
 //rule 1) 
-function App(){
-    return <textarea autoFocus={true}/>;
-}
+// function App(){
+//     return <textarea autoFocus={true}/>;
+// }
 
-// steps for creating a component
+
+/**************************************************************************************************** */
+
+
+//#### steps for creating a component
+
 // create a new file (App.js)
 // Make your component - write a function that should return JSX
 //export your component - export default App;
 // import it in another file - it can be Index.js
 // use the component - <App/>
 
+/********************************************************************************************************* */
 
 // Module System : import export system
 
@@ -70,3 +80,7 @@ function App(){
 
 //2) Import Statements a) Default - import App from './App'
 //                     b) for named - import App,{message} from './App'
+
+
+/*************************************************************************************************************************** */
+
